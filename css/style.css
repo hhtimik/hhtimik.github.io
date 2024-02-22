@@ -40,7 +40,8 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		color: #e0555a;
+		color: #5668ab;
+		font-weight: bold;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -62,6 +63,7 @@
 
 	p {
 		margin: 0 0 2em 0;
+		
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -174,7 +176,7 @@
 	}
 
 	header p {
-		color: #949494;
+		color: #1f1f1f;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1010,7 +1012,7 @@
 		}
 
 		.wrapper.style3 {
-			background: #e0555a;
+			background: #d0e4fe;
 			color: #d1f2f5;
 		}
 
@@ -1230,13 +1232,13 @@
 
 	#banner {
 		background-attachment: scroll,						fixed;
-		background-color: #494d53;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-color: #d0e4fe;
+	/*	background-image: url("images/overlay.png"), url("../images/banner.jpg"); */
 		background-position: top left,					center center;
 		background-repeat: repeat,						no-repeat;
 		background-size: auto,						cover;
 		color: #d1d2d4;
-		padding: 16em 0;
+		padding: 6em 0; 
 		position: relative;
 		text-align: center;
 	}
